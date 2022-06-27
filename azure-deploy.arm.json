@@ -64,9 +64,9 @@
                         "location": "[parameters('location')]",
                         "properties": {
                             "db_server": "[parameters('db_server')]",
-                            "db_user": "[parameters('db_server')]",
-                            "db_password": "[parameters('db_server')]",
-                            "db_database": "[parameters('db_server')]"
+                            "db_user": "[parameters('db_user')]",
+                            "db_password": "[parameters('db_password')]",
+                            "db_database": "[parameters('db_database')]"
                         },
                         "dependsOn": [
                             "[resourceId('Microsoft.Web/staticSites', parameters('name'))]"
