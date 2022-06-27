@@ -40,7 +40,7 @@ The implementation uses
 - [NodeJS](https://nodejs.org/en/) for the back-end logic
 - [Azure SQL](https://azure.microsoft.com/en-us/services/sql-database/) as database to store ToDo data
 - [GitHub Actions](https://github.com/features/actions) to Deploy the full-stack website (thanks to Azure Static WebApps)
-
+test
 ## Implementation Details
 
 Folder structure is the following:
